@@ -1,4 +1,10 @@
+@font-face {
+  font-family: 'Garet';
+  src: url("/assets/Fonts/Garet-Book.ttf") format("truetype"), url("/assets/Fonts/Garet-Book.woff") format("woff"), url("/assets/Fonts/Garet-Book.woff2") format("woff2");
+}
+
 html {
+  font-family: "Garet", sans-serif;
   background-color: #0A2A43;
   color: whitesmoke;
   height: 100%;
@@ -11,13 +17,6 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-html button {
-  width: 50px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 body {
@@ -55,6 +54,27 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+header #navbar-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header #navbar-list .nav-items {
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 footer {
