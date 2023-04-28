@@ -36,7 +36,12 @@ a{
 
 header{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+
+  .navbar{
+  display: flex;
+  flex-direction: row-reverse;
+  }
 
   #navbar-list{
     display: flex;
@@ -50,7 +55,7 @@ header{
 }
 }
 
-footer{
+.footer{
   display: flex;
   flex-direction: row;
 }
