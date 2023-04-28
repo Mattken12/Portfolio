@@ -44,6 +44,7 @@ body button {
 
 a {
   color: white;
+  list-style: none;
 }
 
 header {
@@ -85,6 +86,10 @@ header #navbar-list .nav-items {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+header #navbar-list .nav-items :hover {
+  background-color: red;
 }
 
 .footer {
