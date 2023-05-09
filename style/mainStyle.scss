@@ -1,68 +1,13 @@
-@font-face {
-  font-family: 'Garet';
-  src: url('/assets/Fonts/Garet-Book.ttf') format('truetype'),
-  url('/assets/Fonts/Garet-Book.woff') format('woff'),
-  url('/assets/Fonts/Garet-Book.woff2') format('woff2')
-}
-
-html{
-  font-family: "Garet", sans-serif;
+body{ 
   background-color: #0A2A43;
-  color: whitesmoke;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-
+color: white;
+ 
 }
 
-body{
-  display: flex;
-  flex-direction: column;
-
-  button{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
+.card{
+  margin-bottom: 15px;
+  border-color: white;
+  background-color: #0A2A43;
+  color: white
   
-}
-
-a{
-  color: white;
-  list-style: none;
-}
-
-header{
-  display: flex;
-  flex-direction: column;
-
-  .navbar{
-  display: flex;
-  flex-direction: row-reverse;
-  }
-
-  #navbar-list{
-    display: flex;
-    flex-direction: row;
-    
-
-    .nav-items{
-      margin-right: 50px;
-      display: flex;
-      flex-direction: column;
-    
-      :hover{
-        background-color: red;
-      }
-      
-    }
-}
-}
-
-.footer{
-  display: flex;
-  flex-direction: row;
 }
