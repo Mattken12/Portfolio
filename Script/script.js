@@ -1,24 +1,27 @@
 $(document).ready(function() {
 
-changeLanguage("lang-fr");
+changeLanguage("FR");
 
 function changeLanguage(language){
 
-  if (language == "lang-fr"){
+
+  if (language == "FR"){
+    $(".lang-fr").show();
     $(".lang-en").hide();
-    $("#lang_button").text("lang-en");
+    $("#lang-button").text("EN");
   }
-  else if (language == "lang-en"){
+  else if (language == "EN"){
+    $(".lang-en").show();
     $(".lang-fr").hide();
-    $("#lang_button").text("lang-fr")
+    $("#lang-button").text("FR")
   }
   
-  $("." + language).show();
+  
 
 }
 
-// Call changeLanguage
-$("#lang_button").click(function(){changeLanguage($("#lang_button").text())});
+// Event click sur bouton de la langue
+$("#lang-button").click(function(){changeLanguage($("#lang-button").text())});
 
 
 });
