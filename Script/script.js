@@ -1,18 +1,18 @@
 $(document).ready(function() {
 
-changeLanguage("FR");
+  $(".lang-en").hide(); 
 
 function changeLanguage(language){
 
 
   if (language == "FR"){
-    $(".lang-fr").show();
-    $(".lang-en").hide();
+    $(".lang-fr").show(400);
+    $(".lang-en").hide(400);
     $("#lang-button").text("EN");
   }
   else if (language == "EN"){
-    $(".lang-en").show();
-    $(".lang-fr").hide();
+    $(".lang-en").show(400);
+    $(".lang-fr").hide(400);
     $("#lang-button").text("FR")
   }
   
