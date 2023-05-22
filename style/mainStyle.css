@@ -1,6 +1,7 @@
 body {
   background-color: #0A2A43;
   color: white;
+  padding-top: 100px;
 }
 
 .card {
@@ -16,5 +17,9 @@ body {
 
 .bg-dark {
   background-color: #0A2A43;
+}
+
+.pt-3 {
+  padding-top: 30px;
 }
 /*# sourceMappingURL=mainStyle.css.map */
