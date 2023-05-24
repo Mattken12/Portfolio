@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $(".lang-en").hide(); 
+  $(".lang-fr").hide(); 
 
 function changeLanguage(language){
 
