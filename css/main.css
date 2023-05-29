@@ -1095,7 +1095,7 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
+	background: rgba(14,14,14,255);
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
@@ -1121,7 +1121,7 @@ header .logo a {
 	height: 15px;
 	background: url("../images/logo_2.png") no-repeat center;
 	zoom: 125%;
-	background-size: 92px 15px;
+	background-size: 119%;
 }
 
 /**
@@ -2095,7 +2095,7 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-#services {
+#objectives {
 	background: #313131 url(../images/bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -2105,7 +2105,7 @@ header .logo a {
 	color: white;
 	position: relative;
 }
-#services .overlay {
+#objectives .overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2115,17 +2115,17 @@ header .logo a {
 	opacity: .9;
 }
 
-#services .section-intro {
+#objectives .section-intro {
 	margin-bottom: 1.8rem;
 }
 
-#services .section-intro h1 {
+#objectives .section-intro h1 {
 	color: white;
 }
-#services .section-intro h5 {
+#objectives .section-intro h5 {
 	color: #FF0077;
 }
-#services .section-intro p {
+#objectives .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
 }
 .services-content {
